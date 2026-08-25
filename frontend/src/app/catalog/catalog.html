@@ -1,0 +1,14 @@
+<h1>Catalog</h1>
+
+@if (products() === null) {
+  <p>Loading…</p>
+} @else {
+  <ul>
+    @for (product of products()!.items; track product.id) {
+      <li>
+        <strong>{{ product.name }}</strong>
+        <p>{{ product.description }}</p>
+      </li>
+    }
+  </ul>
+}

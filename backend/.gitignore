@@ -1,0 +1,23 @@
+# Compiled output
+/dist
+/node_modules
+
+# Env
+.env
+
+# Logs
+npm-debug.log
+
+# Tests
+/coverage
+
+# IDEs
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System files
+.DS_Store
